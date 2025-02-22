@@ -1,7 +1,7 @@
 import React from 'react';
-import {View, Text, StyleSheet, Image} from 'react-native';
-import {Display} from '../utils';
-import {Fonts, Colors, Images} from '../contants';
+import { Image, StyleSheet, Text, View } from 'react-native';
+import { Fonts, Images } from '../contants';
+import { Display } from '../utils';
 
 const WelcomeCard = ({title, content, image}) => {
   return (
