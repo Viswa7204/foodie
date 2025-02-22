@@ -1,20 +1,20 @@
 import React from 'react';
 import {
-  View,
-  Text,
-  StyleSheet,
-  StatusBar,
-  ScrollView,
-  TouchableOpacity,
   Image,
+  ScrollView,
+  StatusBar,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  View,
 } from 'react-native';
-import {Colors, Fonts, Images} from '../contants';
-import {FoodCard, Separator} from '../components';
-import Ionicons from 'react-native-vector-icons/Ionicons';
-import Entypo from 'react-native-vector-icons/Entypo';
 import AntDesign from 'react-native-vector-icons/AntDesign';
-import {Display} from '../utils';
-import {useSelector} from 'react-redux';
+import Entypo from 'react-native-vector-icons/Entypo';
+import Ionicons from 'react-native-vector-icons/Ionicons';
+import { useSelector } from 'react-redux';
+import { FoodCard, Separator } from '../components';
+import { Colors, Fonts, Images } from '../contants';
+import { Display } from '../utils';
 
 const CartScreen = ({navigation}) => {
   const cart = useSelector(state => state?.cartState?.cart);
