@@ -1,11 +1,11 @@
 import React from 'react';
-import {View, Text, StyleSheet, TouchableOpacity, Image} from 'react-native';
-import {Colors, Fonts} from '../contants';
+import { Image, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import FontAwesome from 'react-native-vector-icons/FontAwesome';
 import Ionicons from 'react-native-vector-icons/Ionicons';
-import {StaticImageService} from '../services';
-import {useDispatch, useSelector} from 'react-redux';
-import {BookmarkAction} from '../actions';
+import { useDispatch, useSelector } from 'react-redux';
+import { BookmarkAction } from '../actions';
+import { Colors, Fonts } from '../contants';
+import { StaticImageService } from '../services';
 
 const RestaurantCard = ({
   id,
@@ -61,7 +61,7 @@ const RestaurantCard = ({
           </View>
           <View style={styles.timeAndDistanceContainer}>
             <Ionicons
-              name="ios-time-outline"
+              name="time-outline"
               color={Colors.DEFAULT_YELLOW}
               size={15}
             />

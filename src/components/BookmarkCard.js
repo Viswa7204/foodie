@@ -1,12 +1,12 @@
 import React from 'react';
-import {View, Text, StyleSheet, TouchableOpacity, Image} from 'react-native';
-import Ionicons from 'react-native-vector-icons/Ionicons';
+import { Image, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import Entypo from 'react-native-vector-icons/Entypo';
 import FontAwesome from 'react-native-vector-icons/FontAwesome';
-import {Colors, Fonts} from '../contants';
-import {StaticImageService} from '../services';
-import {useDispatch} from 'react-redux';
-import {BookmarkAction} from '../actions';
+import Ionicons from 'react-native-vector-icons/Ionicons';
+import { useDispatch } from 'react-redux';
+import { BookmarkAction } from '../actions';
+import { Colors, Fonts } from '../contants';
+import { StaticImageService } from '../services';
 
 const BookmarkCard = ({id, name, images, location, tags, navigate}) => {
   const dispatch = useDispatch();
@@ -42,7 +42,7 @@ const BookmarkCard = ({id, name, images, location, tags, navigate}) => {
           </View>
           <View style={styles.rowAndCenter}>
             <Ionicons
-              name="ios-time-outline"
+              name="time-outline"
               color={Colors.GOOGLE_BLUE}
               size={15}
             />

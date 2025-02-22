@@ -1,21 +1,21 @@
 import React from 'react';
 import {
-  View,
-  Text,
-  StyleSheet,
-  StatusBar,
   Image,
+  StatusBar,
+  StyleSheet,
+  Text,
   TouchableOpacity,
+  View,
 } from 'react-native';
-import {Separator, ToggleButton} from '../components';
-import {Colors, Fonts, Images} from '../contants';
-import Ionicons from 'react-native-vector-icons/Ionicons';
 import Feather from 'react-native-vector-icons/Feather';
+import Ionicons from 'react-native-vector-icons/Ionicons';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
-import {Display} from '../utils';
-import {useDispatch} from 'react-redux';
-import {StorageService} from '../services';
-import {GeneralAction} from '../actions';
+import { useDispatch } from 'react-redux';
+import { GeneralAction } from '../actions';
+import { Separator, ToggleButton } from '../components';
+import { Colors, Fonts, Images } from '../contants';
+import { StorageService } from '../services';
+import { Display } from '../utils';
 
 const AccountScreen = ({navigation}) => {
   const dispatch = useDispatch();
@@ -146,7 +146,7 @@ const AccountScreen = ({navigation}) => {
         <View style={styles.sectionContainer} activeOpacity={0.8}>
           <View style={styles.sectionTextContainer}>
             <Ionicons
-              name="ios-color-palette-outline"
+              name="color-palette-outline"
               size={18}
               color={Colors.DEFAULT_GREEN}
             />
