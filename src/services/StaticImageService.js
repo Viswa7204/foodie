@@ -1,4 +1,4 @@
-import {ApiContants} from '../contants';
+import { ApiContants } from '../contants';
 
 const getFlagIcon = (
   code = 'IN',

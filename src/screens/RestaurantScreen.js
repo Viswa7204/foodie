@@ -1,22 +1,21 @@
-import React, {useEffect, useState} from 'react';
+import React, { useEffect, useState } from 'react';
 import {
-  View,
-  Text,
-  StyleSheet,
-  StatusBar,
+  FlatList,
   Image,
   ScrollView,
-  FlatList,
-  TouchableOpacity,
+  StatusBar,
+  StyleSheet,
+  Text,
+  View
 } from 'react-native';
-import {CategoryListItem, FoodCard, Separator} from '../components';
-import {ApiContants, Colors, Fonts, Images} from '../contants';
-import {RestaurantService, StaticImageService} from '../services';
-import {Display} from '../utils';
-import Ionicons from 'react-native-vector-icons/Ionicons';
 import FontAwesome from 'react-native-vector-icons/FontAwesome';
-import {useDispatch, useSelector} from 'react-redux';
-import {BookmarkAction} from '../actions';
+import Ionicons from 'react-native-vector-icons/Ionicons';
+import { useDispatch, useSelector } from 'react-redux';
+import { BookmarkAction } from '../actions';
+import { CategoryListItem, FoodCard, Separator } from '../components';
+import { ApiContants, Colors, Fonts, Images } from '../contants';
+import { RestaurantService, StaticImageService } from '../services';
+import { Display } from '../utils';
 
 const ListHeader = () => (
   <View
