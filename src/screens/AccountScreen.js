@@ -56,8 +56,8 @@ const AccountScreen = ({navigation}) => {
           <Image style={styles.profileImage} source={Images.AVATAR} />
         </View>
         <View style={styles.profileTextContainer}>
-          <Text style={styles.nameText}>Ameen Farook</Text>
-          <Text style={styles.emailText}>ameeen.faroook@gmail.com</Text>
+          <Text style={styles.nameText}>Viswa</Text>
+          <Text style={styles.emailText}>viswa3047@gmail.com</Text>
         </View>
       </View>
       <View style={styles.menuContainer}>
@@ -185,7 +185,7 @@ const styles = StyleSheet.create({
     width: 2000,
     borderRadius: 2000,
     alignSelf: 'center',
-    zIndex: -1,
+    zIndex: 0,
   },
   headerContainer: {
     flexDirection: 'row',
