@@ -1,14 +1,14 @@
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import React from 'react';
-import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
+import Ionicons from 'react-native-vector-icons/Ionicons';
+import { Colors } from '../contants';
 import {
   AccountScreen,
   BookmarkScreen,
   CartScreen,
   HomeScreen,
 } from '../screens';
-import Ionicons from 'react-native-vector-icons/Ionicons';
-import {Display} from '../utils';
-import {Colors} from '../contants';
+import { Display } from '../utils';
 
 const BottomTabs = createBottomTabNavigator();
 
