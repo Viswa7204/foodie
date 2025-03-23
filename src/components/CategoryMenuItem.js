@@ -1,6 +1,6 @@
 import React from 'react';
-import {Text, StyleSheet, TouchableOpacity, Image} from 'react-native';
-import {Colors, Fonts, Images} from '../contants';
+import { Image, StyleSheet, Text, TouchableOpacity } from 'react-native';
+import { Colors, Fonts, Images } from '../contants';
 
 const CategoryMenuItem = ({name, logo, activeCategory, setActiveCategory}) => {
   return (

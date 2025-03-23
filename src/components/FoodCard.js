@@ -1,12 +1,11 @@
-import React, {useState} from 'react';
-import {View, Text, StyleSheet, TouchableOpacity, Image} from 'react-native';
+import React from 'react';
+import { Image, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import AntDesign from 'react-native-vector-icons/AntDesign';
-import {ApiContants, Colors, Fonts} from '../contants';
-import {StaticImageService} from '../services';
-import {Display} from '../utils';
-import {useDispatch} from 'react-redux';
-import {useSelector} from 'react-redux';
-import {CartAction} from '../actions';
+import { useDispatch, useSelector } from 'react-redux';
+import { CartAction } from '../actions';
+import { ApiContants, Colors, Fonts } from '../contants';
+import { StaticImageService } from '../services';
+import { Display } from '../utils';
 
 const FoodCard = ({id, name, description, price, image, navigate}) => {
   const dispatch = useDispatch();

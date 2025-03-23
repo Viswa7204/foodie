@@ -1,6 +1,6 @@
 import React from 'react';
-import {View, Text, StyleSheet} from 'react-native';
-import {Colors, Fonts} from '../contants';
+import { StyleSheet, Text, View } from 'react-native';
+import { Colors, Fonts } from '../contants';
 
 const CategoryListItem = ({name, isActive, selectCategory}) => {
   return (

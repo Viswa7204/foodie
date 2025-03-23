@@ -1,7 +1,7 @@
 import React from 'react';
-import {Text, StyleSheet, TouchableOpacity, Image} from 'react-native';
-import {Colors, Fonts} from '../contants';
-import {StaticImageService} from '../services';
+import { Image, StyleSheet, Text, TouchableOpacity } from 'react-native';
+import { Colors, Fonts } from '../contants';
+import { StaticImageService } from '../services';
 
 const FlagItem = ({code, name, dial_code, onPress}) => {
   return (

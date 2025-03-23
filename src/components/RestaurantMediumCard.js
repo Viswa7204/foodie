@@ -1,9 +1,9 @@
 import React from 'react';
-import {View, Text, StyleSheet, Image} from 'react-native';
+import { Image, StyleSheet, Text, View } from 'react-native';
 import FontAwesome from 'react-native-vector-icons/FontAwesome';
-import {Colors, Fonts, Images} from '../contants';
-import {StaticImageService} from '../services';
-import {Display} from '../utils';
+import { Colors, Fonts, Images } from '../contants';
+import { StaticImageService } from '../services';
+import { Display } from '../utils';
 
 const RestaurantMediumCard = ({name, images: {logo}, time, distance, tags}) => {
   return (
