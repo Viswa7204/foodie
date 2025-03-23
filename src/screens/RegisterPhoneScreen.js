@@ -1,20 +1,20 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import {
-  View,
-  Text,
-  StyleSheet,
-  StatusBar,
-  Image,
-  TouchableOpacity,
-  TextInput,
   FlatList,
+  Image,
+  StatusBar,
+  StyleSheet,
+  Text,
+  TextInput,
+  TouchableOpacity,
+  View,
 } from 'react-native';
-import {Colors, Fonts, CountryCode} from '../contants';
 import Ionicons from 'react-native-vector-icons/Ionicons';
-import {FlagItem, Separator} from '../components';
-import {Display} from '../utils';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
-import {StaticImageService} from '../services';
+import { FlagItem, Separator } from '../components';
+import { Colors, CountryCode, Fonts } from '../contants';
+import { StaticImageService } from '../services';
+import { Display } from '../utils';
 
 const getDropdownStyle = y => ({...styles.countryDropdown, top: y + 60});
 

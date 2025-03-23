@@ -1,21 +1,21 @@
-import React, {useState} from 'react';
+import LottieView from 'lottie-react-native';
+import React, { useState } from 'react';
 import {
-  View,
-  Text,
-  StyleSheet,
+  Image,
   StatusBar,
+  StyleSheet,
+  Text,
   TextInput,
   TouchableOpacity,
-  Image,
+  View,
 } from 'react-native';
-import {Colors, Fonts, Images} from '../contants';
-import Ionicons from 'react-native-vector-icons/Ionicons';
 import AntDesign from 'react-native-vector-icons/AntDesign';
-import {Separator} from '../components';
-import {Display} from '../utils';
 import Feather from 'react-native-vector-icons/Feather';
-import {AuthenicationService} from '../services';
-import LottieView from 'lottie-react-native';
+import Ionicons from 'react-native-vector-icons/Ionicons';
+import { Separator } from '../components';
+import { Colors, Fonts, Images } from '../contants';
+import { AuthenicationService } from '../services';
+import { Display } from '../utils';
 
 const inputStyle = state => {
   switch (state) {

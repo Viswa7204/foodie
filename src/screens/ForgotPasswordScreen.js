@@ -1,17 +1,17 @@
 import React from 'react';
 import {
-  View,
-  Text,
-  StyleSheet,
   StatusBar,
+  StyleSheet,
+  Text,
   TextInput,
   TouchableOpacity,
+  View,
 } from 'react-native';
-import {Separator} from '../components';
-import Ionicons from 'react-native-vector-icons/Ionicons';
 import Feather from 'react-native-vector-icons/Feather';
-import {Colors, Fonts} from '../contants';
-import {Display} from '../utils';
+import Ionicons from 'react-native-vector-icons/Ionicons';
+import { Separator } from '../components';
+import { Colors, Fonts } from '../contants';
+import { Display } from '../utils';
 
 const ForgotPasswordScreen = () => {
   return (

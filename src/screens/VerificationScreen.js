@@ -1,16 +1,16 @@
-import React, {useRef, useState} from 'react';
+import React, { useRef, useState } from 'react';
 import {
-  View,
-  Text,
-  StyleSheet,
   StatusBar,
+  StyleSheet,
+  Text,
   TextInput,
   TouchableOpacity,
+  View,
 } from 'react-native';
-import {Separator} from '../components';
 import Ionicons from 'react-native-vector-icons/Ionicons';
-import {Colors, Fonts} from '../contants';
-import {Display} from '../utils';
+import { Separator } from '../components';
+import { Colors, Fonts } from '../contants';
+import { Display } from '../utils';
 
 const VerificationScreen = ({
   route: {

@@ -1,22 +1,22 @@
-import React, {useState} from 'react';
+import LottieView from 'lottie-react-native';
+import React, { useState } from 'react';
 import {
-  View,
-  Text,
-  StyleSheet,
+  Image,
   StatusBar,
+  StyleSheet,
+  Text,
   TextInput,
   TouchableOpacity,
-  Image,
+  View,
 } from 'react-native';
-import {Separator, ToggleButton} from '../components';
-import Ionicons from 'react-native-vector-icons/Ionicons';
 import Feather from 'react-native-vector-icons/Feather';
-import {Colors, Fonts, Images} from '../contants';
-import {Display} from '../utils';
-import {AuthenicationService, StorageService} from '../services';
-import LottieView from 'lottie-react-native';
-import {useDispatch, useSelector} from 'react-redux';
-import {GeneralAction} from '../actions';
+import Ionicons from 'react-native-vector-icons/Ionicons';
+import { useDispatch } from 'react-redux';
+import { GeneralAction } from '../actions';
+import { Separator, ToggleButton } from '../components';
+import { Colors, Fonts, Images } from '../contants';
+import { AuthenicationService, StorageService } from '../services';
+import { Display } from '../utils';
 
 const SigninScreen = ({navigation}) => {
   const [isPasswordShow, setIsPasswordShow] = useState(false);
