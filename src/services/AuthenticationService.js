@@ -1,7 +1,7 @@
 import axios from 'axios';
-import {ApiContants} from '../contants';
-import {getToken} from '../Store';
-import {authHeader} from '../utils/Generator';
+import { ApiContants } from '../contants';
+import { getToken } from '../Store';
+import { authHeader } from '../utils/Generator';
 
 const AuthRequest = axios.create({
   baseURL: ApiContants.BACKEND_API.BASE_API_URL,

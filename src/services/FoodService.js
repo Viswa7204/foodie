@@ -1,7 +1,7 @@
-import {ApiContants} from '../contants';
 import axios from 'axios';
-import {authHeader} from '../utils/Generator';
-import {getToken} from '../Store';
+import { ApiContants } from '../contants';
+import { getToken } from '../Store';
+import { authHeader } from '../utils/Generator';
 
 const getOneFoodById = async foodId => {
   console.log(`FoodService | getOneFoodById`);
