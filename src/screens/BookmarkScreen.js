@@ -1,10 +1,10 @@
 import React from 'react';
-import {View, Text, StyleSheet, StatusBar, FlatList} from 'react-native';
-import {Colors, Fonts} from '../contants';
-import {BookmarkCard, Separator} from '../components';
-import {Display} from '../utils';
+import { FlatList, StatusBar, StyleSheet, Text, View } from 'react-native';
 import Ionicons from 'react-native-vector-icons/Ionicons';
-import {useSelector} from 'react-redux';
+import { useSelector } from 'react-redux';
+import { BookmarkCard, Separator } from '../components';
+import { Colors, Fonts } from '../contants';
+import { Display } from '../utils';
 
 const ListItemSeparator = () => (
   <View

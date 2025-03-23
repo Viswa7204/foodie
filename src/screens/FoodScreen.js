@@ -1,21 +1,21 @@
-import React, {useEffect, useState} from 'react';
+import React, { useEffect, useState } from 'react';
 import {
-  View,
-  Text,
-  StyleSheet,
-  StatusBar,
   Image,
   ScrollView,
+  StatusBar,
+  StyleSheet,
+  Text,
   TouchableOpacity,
+  View,
 } from 'react-native';
-import {ApiContants, Colors, Fonts, Images} from '../contants';
-import {FoodService, StaticImageService} from '../services';
-import {Display} from '../utils';
-import {Separator} from '../components';
-import FontAwesome from 'react-native-vector-icons/FontAwesome';
 import AntDesign from 'react-native-vector-icons/AntDesign';
-import {useDispatch, useSelector} from 'react-redux';
-import {CartAction} from '../actions';
+import FontAwesome from 'react-native-vector-icons/FontAwesome';
+import { useDispatch, useSelector } from 'react-redux';
+import { CartAction } from '../actions';
+import { Separator } from '../components';
+import { ApiContants, Colors, Fonts, Images } from '../contants';
+import { FoodService, StaticImageService } from '../services';
+import { Display } from '../utils';
 
 const setStyle = isActive =>
   isActive
