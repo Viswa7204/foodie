@@ -1,4 +1,4 @@
-import {GeneralAction} from '../actions';
+import { GeneralAction } from '../actions';
 
 const initialState = {
   isAppLoading: true,

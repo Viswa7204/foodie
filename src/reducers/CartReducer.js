@@ -1,4 +1,4 @@
-import {CartAction} from '../actions';
+import { CartAction } from '../actions';
 
 const initialState = {
   cart: {},
