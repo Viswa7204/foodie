@@ -1,4 +1,4 @@
-import {AuthenicationService, StorageService} from '../services';
+import { AuthenicationService, StorageService } from '../services';
 import UserService from '../services/UserService';
 import BookmarkAction from './BookmarkAction';
 import CartAction from './CartAction';
