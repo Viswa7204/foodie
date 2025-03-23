@@ -180,7 +180,7 @@ const styles = StyleSheet.create({
     width: 2000,
     borderRadius: 2000,
     alignSelf: 'center',
-    zIndex: -1,
+    zIndex: 0,
   },
   headerContainer: {
     justifyContent: 'space-evenly',
