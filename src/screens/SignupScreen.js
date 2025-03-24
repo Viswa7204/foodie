@@ -74,6 +74,8 @@ const SignupScreen = ({navigation}) => {
   const [usernameState, setUsernameState] = useState('default');
 
   const register = () => {
+    navigation.navigate('RegisterPhone');
+    return;
     let user = {
       username,
       email,
