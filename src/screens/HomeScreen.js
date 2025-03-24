@@ -251,7 +251,7 @@ const styles = StyleSheet.create({
   },
   listContainer: {
     paddingVertical: 5,
-    zIndex: -5,
+    zIndex: 0,
   },
   horizontalListContainer: {
     marginTop: 30,
