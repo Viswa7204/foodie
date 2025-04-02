@@ -277,7 +277,7 @@ const styles = StyleSheet.create({
     backgroundColor: Colors.LIGHT_GREY2,
     height: Display.setHeight(6),
     width: Display.setWidth(30),
-    justifyContent: 'center',
+    justifyContent: 'space-evenly',
     borderRadius: 8,
   },
   itemCountText: {
@@ -297,8 +297,8 @@ const styles = StyleSheet.create({
   },
   cartButtonText: {
     color: Colors.DEFAULT_WHITE,
-    fontSize: 14,
-    lineHeight: 14 * 1.4,
+    fontSize: 18,
+    lineHeight: 18 * 1.4,
     fontFamily: Fonts.POPPINS_MEDIUM,
   },
 });

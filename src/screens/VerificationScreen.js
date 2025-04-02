@@ -13,6 +13,7 @@ import { Colors, Fonts } from '../contants';
 import { Display } from '../utils';
 
 const VerificationScreen = ({
+  navigation,
   route: {
     params: {phoneNumber},
   },

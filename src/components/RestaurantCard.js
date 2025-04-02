@@ -6,7 +6,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { BookmarkAction } from '../actions';
 import { Colors, Fonts } from '../contants';
 import { StaticImageService } from '../services';
-
+import { Display } from '../utils';
 const RestaurantCard = ({
   id,
   name,
@@ -76,7 +76,7 @@ const RestaurantCard = ({
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
+    justifyContent: 'space-betweenr',
     backgroundColor: Colors.DEFAULT_WHITE,
     borderRadius: 10,
     elevation: 3,
@@ -102,6 +102,7 @@ const styles = StyleSheet.create({
     fontFamily: Fonts.POPPINS_MEDIUM,
     color: Colors.DEFAULT_GREY,
     marginBottom: 5,
+    maxWidth: Display.setWidth(70),
   },
   footerContainer: {
     flexDirection: 'row',

@@ -193,7 +193,7 @@ const RestaurantScreen = ({
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
+    justifyContent: 'space-between',
   },
   backgroundImage: {
     position: 'absolute',
@@ -226,6 +226,7 @@ const styles = StyleSheet.create({
     lineHeight: 13 * 1.4,
     fontFamily: Fonts.POPPINS_SEMI_BOLD,
     color: Colors.DEFAULT_GREY,
+    maxWidth: Display.setWidth(70),
   },
   ratingReviewsContainer: {
     flexDirection: 'row',
