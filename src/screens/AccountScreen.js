@@ -56,8 +56,8 @@ const AccountScreen = ({navigation}) => {
           <Image style={styles.profileImage} source={Images.AVATAR} />
         </View>
         <View style={styles.profileTextContainer}>
-          <Text style={styles.nameText}>Viswa</Text>
-          <Text style={styles.emailText}>viswa3047@gmail.com</Text>
+          <Text style={styles.nameText}>Username</Text>
+          <Text style={styles.emailText}>User Email ID</Text>
         </View>
       </View>
       <View style={styles.menuContainer}>
