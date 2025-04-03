@@ -48,6 +48,15 @@ export default () => (
       }}
     />
     <BottomTabs.Screen
+      name="Recommendation"
+      component={CartScreen}
+      options={{
+        tabBarIcon: ({color}) => (
+          <Ionicons name="search-outline" size={23} color={color} />
+        ),
+      }}
+    />
+    <BottomTabs.Screen
       name="Cart"
       component={CartScreen}
       options={{
